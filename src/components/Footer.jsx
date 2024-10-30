@@ -5,7 +5,7 @@ const Footer = () => {
       <footer className="mt-20 border-t py-10 border-neutral-700">
       <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-4 ">
         <div className="">
-          <h3 className="text-md font-semibold mb-4 border-b pb-2 border-b-neutral-600 ">Resources</h3>
+          <h3 className="text-md font-semibold mb-4 border-b pb-2 border-b-neutral-800 ">Resources</h3>
           <ul className="space-y-2">
             {resourcesLinks.map((item, index) => (
               <div key={index}>
@@ -16,7 +16,7 @@ const Footer = () => {
         </div>
                 
         <div>
-          <h3 className="text-md font-semibold mb-4 border-b pb-2 border-b-neutral-600">Platform</h3>
+          <h3 className="text-md font-semibold mb-4 border-b pb-2 border-b-neutral-800">Platform</h3>
           <ul className="space-y-2">
             {platformLinks.map((item, index) => (
               <div key={index}>
@@ -27,7 +27,7 @@ const Footer = () => {
         </div>
 
         <div>
-          <h3 className="text-md font-semibold mb-4 border-b pb-2 border-b-neutral-600 ">Community</h3>
+          <h3 className="text-md font-semibold mb-4 border-b pb-2 border-b-neutral-800 ">Community</h3>
           <ul className="space-y-2">
             {communityLinks.map((item, index) => (
               <div key={index}>
